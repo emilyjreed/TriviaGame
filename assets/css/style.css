@@ -1,15 +1,18 @@
 #title {
     margin-top: 50px;
-    font-size: 60px;
+    font-size: 80px;
     color: black;
     font-weight: bold;
-    padding: 20px;
+    padding: 10px;
+    font-family: 'Reenie Beanie', cursive;
 }
 
 #startGame {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 40px;
     width: 300px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bold;
 }
 
 #timeRemaining {
@@ -17,7 +20,7 @@
 }
 
 #questions {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     text-align: center;
 }
@@ -35,9 +38,34 @@
     opacity: 0.8;
 }
 
+#correctAnswer {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+#incorrectAnswer {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+#timesUp {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
 #startOver {
     margin: 10px;
+    font-size: 40px;
     width: 300px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bold;
+
 }
 
 

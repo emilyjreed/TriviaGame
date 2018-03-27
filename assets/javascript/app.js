@@ -8,7 +8,7 @@ var startScreen = `
 
 var questionScreen = `
 <div class="row justify-content-center">
-    <h3 id="timeRemaining">Time Remaining: 5</h3>
+    <h3 id="timeRemaining">Time Remaining: 30</h3>
 </div>
 <div class="row justify-content-center">
     <h3 id="questions">Question:</h3>
@@ -195,7 +195,7 @@ function newQuestion() {
     if (questionsAnswers.length > 0) {
         mainContent.html(questionScreen);
         randomQuestionsAnswers();
-        timer = 5;
+        timer = 30;
         timerStart();
         $(".answerButtons").on("click", function() {
             stopTimer();
