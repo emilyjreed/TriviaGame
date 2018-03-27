@@ -1,9 +1,4 @@
-body {
-    /* background-size: cover; */
-}
-
 #title {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 50px;
     font-size: 60px;
     color: black;
@@ -24,6 +19,7 @@ body {
 #questions {
     padding: 20px;
     font-size: 30px;
+    text-align: center;
 }
 
 #startGame:hover {
