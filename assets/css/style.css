@@ -1,0 +1,48 @@
+body {
+    /* background-size: cover; */
+}
+
+#title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#startGame {
+    margin-top: 30px;
+    font-size: 30px;
+    width: 300px;
+}
+
+#timeRemaining {
+    font-size: 40px;
+}
+
+#questions {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#startGame:hover {
+    opacity: 0.8;
+}
+
+.answerButtons {
+    margin: 10px;
+    width: 300px;
+}
+
+.answerButtons:hover {
+    opacity: 0.8;
+}
+
+#startOver {
+    margin: 10px;
+    width: 300px;
+}
+
+
+
